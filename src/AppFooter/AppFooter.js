@@ -1,8 +1,8 @@
 import React from "react";
-import "./AppFooter.css";
+import classes from "./AppFooter.module.css";
 
 const AppFooter = () => {
-  return <footer className="app-footer">©Copyright 2020</footer>;
+  return <footer className={classes.appFooter}>©Copyright 2020</footer>;
 };
 
 export default AppFooter;

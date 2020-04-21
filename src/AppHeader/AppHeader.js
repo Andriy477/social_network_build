@@ -1,11 +1,11 @@
 import React from "react";
-import "./AppHeader.css";
+import classes from "./AppHeader.module.css";
 
 const AppHeader = () => {
   return (
-    <header className="app-header">
+    <header className={classes.appHeader}>
       <img
-        className="app-header__logo"
+        className={classes.logo}
         src="https://cdn3.f-cdn.com//files/download/70016655/Logo%202.png"
         alt=""
       />

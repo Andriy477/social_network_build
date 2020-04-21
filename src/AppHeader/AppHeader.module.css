@@ -1,10 +1,10 @@
-.app-header {
+.appHeader {
     grid-area: header;
     background-color: #4c516d;
     padding: 20px;
     border-radius: 3px;
 
 }
-.app-header__logo {
+.logo {
     height: 100%;
 }

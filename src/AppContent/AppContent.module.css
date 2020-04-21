@@ -1,42 +1,52 @@
-.app-content {
+.appContent {
     grid-area: content;
     border: 1px solid #4c516d;
     border-radius: 3px;
     background-color: antiquewhite;
 }
-.app-content__img {
+.img {
     height: 200px;
     width: 100%;
 }
 
-.app-content__person {
+.person {
     display: flex;
     padding: 10px;
 }
+.avatar {
+    border-radius: 50%;
+}
 
-.app-content__info {
+.info {
     margin-left: 30px;
 }
 
-.app-content__fullname {
+.fullname {
     font-size: 28px;
     font-weight: 700;
 }
 
-.app-content__birthday, .app-content__address, .app-content__education, .app-content__website {
+.birthday, .address, .education, .website {
     font-size: 18px;
 }
 
-.app-content__website a {
+.website a {
     text-decoration: none;
     color: black;
 }
-.app-content__website a:hover {
+.website a:hover {
     color: #4c516d;
 }
-.app-content__posts {
+.posts {
     padding: 20px;
 }
-.app-content__title {
+.title {
     font-size: 28px;
+}
+.newpost {
+    font-size: 20px;
+}
+.post {
+    font-size: 18px;
+    padding: 15px;
 }
