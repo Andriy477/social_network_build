@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./AppContent.module.css";
+import MyPosts from "./MyPosts";
 
 const AppContent = () => {
   return (
@@ -28,16 +29,7 @@ const AppContent = () => {
           </div>
         </div>
       </div>
-      <div className={classes.posts}>
-        <div className={classes.title}>My posts</div>
-        <div className={classes.newpost}>
-          <input type="text" />
-          <br />
-          <button>Send</button>
-        </div>
-        <div className={classes.post}>Post1</div>
-        <div className={classes.post}>Post2</div>
-      </div>
+      <MyPosts />
     </div>
   );
 };

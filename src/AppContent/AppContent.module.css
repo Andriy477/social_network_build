@@ -37,16 +37,3 @@
 .website a:hover {
     color: #4c516d;
 }
-.posts {
-    padding: 20px;
-}
-.title {
-    font-size: 28px;
-}
-.newpost {
-    font-size: 20px;
-}
-.post {
-    font-size: 18px;
-    padding: 15px;
-}

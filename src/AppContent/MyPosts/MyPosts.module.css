@@ -1,0 +1,33 @@
+.posts {
+    padding: 20px;
+}
+.title {
+    font-size: 28px;
+}
+.newpost {
+    font-size: 20px;
+}
+.newpost textarea {
+    width: 100%;
+    height: 75px;
+    resize: none;
+}
+
+.newpost button  {
+    display: block;
+    width: 150px;
+    height: 50px;
+    background-color: #4c516d;
+    border: none;
+    border-radius: 5px;
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 0 auto;
+}
+
+.newpost button:hover, .newpost button:focus {
+    cursor: pointer;
+    outline: none;
+}
+
