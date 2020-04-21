@@ -13,6 +13,6 @@
     color: antiquewhite;
 }
 
-.link.active {
+.active {
     border-bottom: 2px solid antiquewhite;
 }
