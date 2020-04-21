@@ -5,27 +5,27 @@ const AppNav = () => {
   return (
     <nav className={classes.appNav}>
       <div>
-        <a href="#1" className={`${classes.link} ${classes.active}`}>
+        <a href="/profile" className={`${classes.link} ${classes.active}`}>
           Profile
         </a>
       </div>
       <div>
-        <a href="#1" className={classes.link}>
+        <a href="/dialogs" className={classes.link}>
           Messages
         </a>
       </div>
       <div>
-        <a href="#2" className={classes.link}>
+        <a href="/news" className={classes.link}>
           News
         </a>
       </div>
       <div>
-        <a href="#1" className={classes.link}>
+        <a href="/music" className={classes.link}>
           Music
         </a>
       </div>
       <div>
-        <a href="#1" className={classes.link}>
+        <a href="/settings" className={classes.link}>
           Settings
         </a>
       </div>
