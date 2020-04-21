@@ -1,0 +1,6 @@
+.app-footer {
+    grid-area: footer;
+    background-color: #4c516d;;
+    padding: 20px;
+    border-radius: 3px;
+}

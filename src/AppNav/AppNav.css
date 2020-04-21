@@ -1,0 +1,14 @@
+.app-nav {
+    grid-area: nav;
+    background-color: #4c516d;
+    padding: 20px;
+    border-radius: 3px;
+}
+.app-nav__link {
+    color: antiquewhite;
+}
+
+.app-nav__link {
+    text-decoration: none;
+    color: antiquewhite;
+}

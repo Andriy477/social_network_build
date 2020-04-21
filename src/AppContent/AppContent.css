@@ -1,0 +1,42 @@
+.app-content {
+    grid-area: content;
+    border: 1px solid #4c516d;
+    border-radius: 3px;
+    background-color: antiquewhite;
+}
+.app-content__img {
+    height: 200px;
+    width: 100%;
+}
+
+.app-content__person {
+    display: flex;
+    padding: 10px;
+}
+
+.app-content__info {
+    margin-left: 30px;
+}
+
+.app-content__fullname {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.app-content__birthday, .app-content__address, .app-content__education, .app-content__website {
+    font-size: 18px;
+}
+
+.app-content__website a {
+    text-decoration: none;
+    color: black;
+}
+.app-content__website a:hover {
+    color: #4c516d;
+}
+.app-content__posts {
+    padding: 20px;
+}
+.app-content__title {
+    font-size: 28px;
+}
