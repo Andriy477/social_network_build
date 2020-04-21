@@ -13,3 +13,11 @@
     min-height: 100vh;
     margin: 0 auto;
 }
+
+.app-content {
+    padding: 15px;
+    grid-area: content;
+    border: 1px solid #4c516d;
+    border-radius: 3px;
+    background-color: antiquewhite;
+}

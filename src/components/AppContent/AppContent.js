@@ -4,7 +4,7 @@ import MyPosts from "./MyPosts";
 
 const AppContent = () => {
   return (
-    <div className={classes.appContent}>
+    <div>
       <img
         className={classes.img}
         src="http://www.catsmob.com/post/2012/06/01089/creative_facebook_timeline_covers_006.jpg"

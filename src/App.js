@@ -1,16 +1,20 @@
 import React from "react";
 import "./App.css";
-import AppHeader from "./AppHeader";
-import AppNav from "./AppNav";
-import AppContent from "./AppContent";
-import AppFooter from "./AppFooter";
+import AppHeader from "./components/AppHeader";
+import AppNav from "./components/AppNav";
+import AppContent from "./components/AppContent";
+import AppFooter from "./components/AppFooter";
+import Dialogs from "./components/Dialogs";
 
 const App = () => {
   return (
     <div className="app-wrapper">
       <AppHeader />
       <AppNav />
-      <AppContent />
+      <div className="app-content">
+        {/*<AppContent />*/}
+        <Dialogs />
+      </div>
       <AppFooter />
     </div>
   );
